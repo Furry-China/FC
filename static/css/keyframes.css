@@ -1,0 +1,122 @@
+@keyframes jump {
+    0% {
+        transform: scale(.7, .7);
+    }
+
+    35% {
+        transform: scale(.85, .85);
+    }
+
+    50% {
+        transform: scale(.85, .85);
+    }
+
+    85% {
+        transform: scale(.75, .75);
+    }
+
+    100% {
+        transform: scale(.75, .75);
+    }
+}
+@keyframes moveingBar {
+    0% {
+        background-position: 0 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    100% {
+        background-position: 12240px 0;
+    }
+}
+
+@keyframes rolling {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes disappear {
+    0% {
+        transform: scale(1.25, 1.25) translate(-50%, -50%);
+
+        opacity: 0;
+
+    }
+
+    5% {
+        transform: scale(1, 1) translate(-50%, -50%);
+
+        opacity: 1;
+
+    }
+
+    70% {
+        opacity: 0.85;
+    }
+
+    85% {
+        opacity: 0.85;
+        margin-top: 0px;
+    }
+
+    100% {
+        opacity: 0;
+        margin-top: -100px;
+    }
+}
+@keyframes confirmblockappear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+@keyframes confirmappear {
+    0% {
+        transform: scale(0.75, 0.75) translate(-50%, -50%);
+        opacity: 0;
+    }
+
+    30% {
+        transform: scale(1.1, 1.1) translate(-50%, -50%);
+    }
+
+    100% {
+        transform: scale(1, 1) translate(-50%, -50%);
+        opacity: 1;
+
+    }
+}
+@keyframes confirmblockdisappear {
+    0% {
+        opacity: 1;
+
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes confirmdisappear {
+    0% {
+        transform: scale(1, 1) translate(-50%, -50%);
+        opacity: 1;
+
+    }
+
+    100% {
+        transform: scale(0.75, 0.75) translate(-50%, -50%);
+        opacity: 0;
+    }
+}
